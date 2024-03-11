@@ -1,14 +1,12 @@
 import { StyleSheet } from "react-native";
+import { colors } from "../../styles/globalstyles";
 
 export const styles = StyleSheet.create({
     container: {
         flex: 1,
+        backgroundColor: colors.verde,
     },
-    brazilinhas : {
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-    },
+    
 
     bolinha: {
         flexDirection: "row",
@@ -21,4 +19,3 @@ export const styles = StyleSheet.create({
     }
 
 })
-

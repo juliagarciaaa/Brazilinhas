@@ -1,12 +1,13 @@
-import { colors } from "../../../styles/colors"
+import { colors } from "../../../styles/globalstyles"
 import {StyleSheet} from 'react-native'
 
 export const styles = StyleSheet.create({
     bola:{
-        width: 20,
-        height: 20,
+        width: 25,
+        height: 25,
         borderRadius: 20,
-        backgroundColor: colors.verde
+        backgroundColor: colors.rosaClaro,
+        margin: 10,
 
     }
 })
