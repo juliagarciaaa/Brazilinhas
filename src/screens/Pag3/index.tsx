@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { ImageBackground, Image, View, Text } from "react-native"
-import { styles } from "../../screens/Pag2/styles";
+import { styles } from "../../screens/Pag3/styles";
 import { IPage } from "../../../App";
 import { Botao } from "../components/Botao";
 import { styleContainer } from "../../styles/globalstyles";
@@ -16,13 +16,12 @@ export function Pag3({ setPage }: IPage) {
         <ImageBackground source={fundoAmarelo} style = {styleContainer.container}>
 
             <View style={styles.cartao}>
-                <Image source={require('../../assets/brilho.png')} style={styles.brilhinho} />
+                <Image source={require('../../assets/cartao.png')} style={styles.cartaozinho} />
 
                 <View style={styles.TextArea}>
                     <Text style={styles.Text}>
-                        Na BraziNa Brazilinhas, oferecemos a oportunidade
-                        de selecionar cores exclusivas para o seu trabalho em crochê!
-                        Criamos peças personalizadas com muita dedicação.
+                    Deverá ser feito um pagamento de 50% do valor do item na hora da compra. 
+                    Não haverá reembolso desses 50% caso haja desistência!
                     </Text>
                 </View>
             </View>

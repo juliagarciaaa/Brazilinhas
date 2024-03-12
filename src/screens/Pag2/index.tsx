@@ -19,9 +19,9 @@ export function Pag2({ setPage }: IPage) {
                 <Image source={require('../../assets/brilho.png')} style={styles.brilhinho} />
 
                 <View style={styles.TextArea}>
-                    <Text style={styles.Text}> Na BraziNa Brazilinhas, oferecemos a oportunidade de selecionar cores exclusivas 
-                    para o seu trabalho em crochê! Criamos peças personalizadas com muita dedicação. Fique à vontade para nos 
-                    enviar suas inspirações se tiver alguma peça específica em mente.
+                    <Text style={styles.Text1}> Na Brazilinhas oferecemos a oportunidade de selecionar cores exclusivas 
+                    para o seu crochê!{'\n'}
+                    Fique à vontade para nos enviar suas inspirações se tiver alguma peça específica em mente.
                     </Text>
                 </View>
             </View>

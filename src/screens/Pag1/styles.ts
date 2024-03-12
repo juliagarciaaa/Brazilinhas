@@ -4,20 +4,18 @@ export const styles = StyleSheet.create({
     container: {
         flex: 1,
     },
-    brazilinhas : {
+    brazilinhas: {
         flex: 1,
         justifyContent: "center",
         alignItems: "center",
     },
 
     bolinha: {
+        padding: 10,
         flexDirection: "row",
-        marginBottom: 20,
-        alignItems: "center",
-        borderRadius: 15,
         justifyContent: "center",
-        
-        
+
+
     }
 
 })

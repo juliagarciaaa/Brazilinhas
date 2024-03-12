@@ -12,19 +12,22 @@ export const styles = StyleSheet.create({
     bolinha: {
         padding: 10,
         flexDirection: "row",
-
     },
+    
     TextArea: {
-        width: 350,
+        paddingTop: 100,
+        width: 400,
 
     },
-    Text: {
+    Text1: {
         color: colors.amarelo,
         fontFamily: "Comfortaa_400Regular",
-        textAlign: "justify",
-        fontSize: 20,
+        textAlign: "center",
+        fontSize: 18,
+        padding: 10,
 
     },
+
 
     brilho: {
         flex: 1,

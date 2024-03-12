@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { ImageBackground, Image, View, Text } from "react-native"
-import { styles } from "../../screens/Pag2/styles";
+import { styles } from "../../screens/Pag4/styles";
 import { IPage } from "../../../App";
 import { Botao } from "../components/Botao";
 import { styleContainer } from "../../styles/globalstyles";
@@ -9,18 +9,18 @@ import { styleContainer } from "../../styles/globalstyles";
 
 export function Pag4({ setPage }: IPage) {
 
-    const fundoVerde = require('../../assets/fundoVerde.png')
-    const brilho = require('../../assets/brilho.png')
+    const fundoMarrom = require('../../assets/fundoMarrom.png')
+    const brilho = require('../../assets/envio.png')
 
     return (
-        <ImageBackground source={fundoVerde} style={styleContainer.container}>
+        <ImageBackground source={fundoMarrom} style={styleContainer.container}>
 
-            <View style={styles.brilho}>
-                <Image source={require('../../assets/brilho.png')} style={styles.brilhinho} />
+            <View style={styles.envio}>
+                <Image source={require('../../assets/envio.png')} style={styles.entrega} />
 
                 <View style={styles.TextArea}>
-                    <Text style={styles.Text}> Na BraziNa Brazilinhas, oferecemos a oportunidade de selecionar cores exclusivas 
-                    para o seu trabalho em crochê! Criamos peças personalizadas com muita dedicação.
+                    <Text style={styles.Text}> O prazo de confecção e envio do item varia de acordo com o modelo, 
+                    o tamanho desejado + o envio dos correios. Aqui na Brazilinhas enviamos para todo o Brasil :)
                     </Text>
                 </View>
             </View>
