@@ -9,5 +9,15 @@ export const styles = StyleSheet.create({
         backgroundColor: colors.rosaClaro,
         margin: 10,
 
+    },
+
+    bolaCor:{
+        width: 25,
+        height: 25,
+        borderRadius: 20,
+        borderWidth: 2,
+        borderColor: colors.rosaClaro,
+        backgroundColor: colors.tranparente,
     }
 })
+
