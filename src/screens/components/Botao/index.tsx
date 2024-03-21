@@ -7,7 +7,7 @@ export interface IBSlider extends TouchableOpacityProps {
 
 export function Botao ({onPress, cor}: IBSlider){
     return(
-        <TouchableOpacity style= {cor ? styles.bolaCor : styles.bola} onPress={onPress}/>
+        <TouchableOpacity style= {cor ? styles.bola : styles.bolaCor} onPress={onPress}/>
     )
 
 }

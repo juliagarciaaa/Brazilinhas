@@ -14,6 +14,7 @@ export const styles = StyleSheet.create({
     bolaCor:{
         width: 25,
         height: 25,
+        margin: 10,
         borderRadius: 20,
         borderWidth: 2,
         borderColor: colors.rosaClaro,
